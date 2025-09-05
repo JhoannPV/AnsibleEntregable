@@ -1,6 +1,6 @@
 ---
 - name: Install Docker, Git, clone repo and run docker compose
-  hosts: localhost
+  hosts: all
   become: yes
   vars:
     project_repo: "https://github.com/JhoannPV/Stack-DevOps.git"
